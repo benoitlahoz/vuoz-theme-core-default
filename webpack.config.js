@@ -23,6 +23,7 @@ module.exports = {
       name: LIBRARY_NAME,
       type: 'umd'
     },
+    globalObject: 'this',
     clean: true
   },
   devtool: "source-map",
