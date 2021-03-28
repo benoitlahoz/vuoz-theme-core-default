@@ -1,11 +1,11 @@
 {
   "name": "@vuoz/theme-core-default",
-  "version": "0.2.90",
+  "version": "0.2.91",
   "description": "",
   "main": "./dist/theme.core.default.umd.min.js",
   "types": "./dist/types/index.d.ts",
   "exports": {
-    "css": "./dist/css/theme.css"
+    "css": "./dist/css/theme.min.css"
   },
   "productName": "theme.core.default",
   "scripts": {
