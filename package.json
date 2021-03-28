@@ -1,0 +1,44 @@
+{
+  "name": "@vuoz/theme-core-default",
+  "version": "0.2.89",
+  "description": "",
+  "main": "./dist/theme.core.default.umd.min.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    "./css": "./dist/css/theme.css"
+  },
+  "productName": "theme.core.default",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vuoz/theme-api": "oz-/vuoz-theme-api"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/node": "^14.14.37",
+    "@types/sass": "^1.16.0",
+    "@types/webpack-env": "^1.16.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^8.1.0",
+    "css-loader": "^5.2.0",
+    "file-loader": "^6.2.0",
+    "material-icons": "^0.5.4",
+    "mini-css-extract-plugin": "^1.4.0",
+    "remove-files-webpack-plugin": "^1.4.4",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.18",
+    "typescript": "^4.2.3",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-env": "^0.8.0",
+    "zip-webpack-plugin": "^4.0.1"
+  }
+}
