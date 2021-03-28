@@ -7,6 +7,9 @@
 export declare var Theme: {
     id: string;
     name: string;
-    sass: string;
-    css: string;
+    pathes: {
+        sass: string;
+        css: string;
+        install: string;
+    }
 };
