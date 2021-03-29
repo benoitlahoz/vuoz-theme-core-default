@@ -21,6 +21,8 @@ const THEME_NAME = 'Default (dark)'
 export const Theme = {
   id: THEME_ID,
   name: THEME_NAME,
+  package: require('../package.json').name,
+  version: require('../package.json').version,
   // Paths relative to dist folder
   paths: {
     sass: 'sass/theme.sass',

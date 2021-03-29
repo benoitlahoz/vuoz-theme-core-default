@@ -1,6 +1,6 @@
 {
   "name": "@vuoz/theme-core-default",
-  "version": "0.2.101",
+  "version": "0.2.103",
   "description": "",
   "main": "./dist/theme.core.default.umd.min.js",
   "types": "./dist/types/index.d.ts",
@@ -10,7 +10,8 @@
   "productName": "theme.core.default",
   "scripts": {
     "build": "webpack",
-    "deploy": "node update.build.js && webpack && git add . && git commit -m 'Auto update.' && git push -u origin master"
+    "deploy": "yarn run vuoz:upgrade && node update.build.js && yarn run build && git add . && git commit -m 'Auto update.' && git push -u origin master",
+    "vuoz:upgrade": "yarn upgrade @vuoz/theme-api"
   },
   "author": "",
   "license": "ISC",
