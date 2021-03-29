@@ -1,6 +1,6 @@
 {
   "name": "@vuoz/theme-core-default",
-  "version": "0.2.100",
+  "version": "0.2.97",
   "description": "",
   "main": "./dist/theme.core.default.umd.min.js",
   "types": "./dist/types/index.d.ts",
@@ -10,7 +10,7 @@
   "productName": "theme.core.default",
   "scripts": {
     "build": "webpack",
-    "deploy": "node update.build.js && webpack && git add * :/ && git commit -m 'Auto update.' && git push -u origin master"
+    "deploy": "webpack && git add * :/ && git commit 'Auto update.' && git push -u origin master"
   },
   "author": "",
   "license": "ISC",
