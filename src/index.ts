@@ -24,7 +24,7 @@ export const Theme = {
   // Paths relative to dist folder
   paths: {
     sass: 'sass/theme.sass',
-    css: 'css/theme.css',
+    css: 'css/theme.min.css',
     install: `archive/theme.${THEME_NAME}.zip`
   }
 }
