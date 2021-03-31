@@ -2,8 +2,16 @@
  * Theme's creator is responsible for loading its own font file
  * and define the $default-font-family variable's value.
  */
+// Main default font
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap')
+// Secondary font (ie. for titles)
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap')
-$default-font-family: 'Barlow', sans-serif
+// Monospace font family
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;600;700&display=swap')
+// Creates the font families
+$default-font-family: 'Lato', sans-serif
+$secondary-font-family: 'Barlow', sans-serif
+$mono-font-family: 'Overpass Mono', Monospace
 
 // Imports basic Vuoz Theme variables
 @import "@vuoz/theme-api/dist/variables"
