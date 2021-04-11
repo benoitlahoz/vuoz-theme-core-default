@@ -1,6 +1,6 @@
 {
   "name": "@vuoz/theme-core-default",
-  "version": "0.2.142",
+  "version": "0.2.143",
   "description": "",
   "main": "./dist/theme.core.default.umd.min.js",
   "types": "./dist/types/index.d.ts",
