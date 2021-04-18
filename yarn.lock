@@ -1024,8 +1024,8 @@
     source-map "^0.6.0"
 
 "@vuoz/theme-api@oz-/vuoz-theme-api":
-  version "0.1.134"
-  resolved "https://codeload.github.com/oz-/vuoz-theme-api/tar.gz/105e0169f10a14264152fcb01fdfb9ced3e7bf4b"
+  version "0.1.135"
+  resolved "https://codeload.github.com/oz-/vuoz-theme-api/tar.gz/8b64ab7d01daaee91dce5dd6dc534c3225fa7cf2"
 
 "@webassemblyjs/ast@1.11.0":
   version "1.11.0"
